@@ -1,0 +1,8 @@
+{
+  "name": "video-app-3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "b75dfa5c"
+}
