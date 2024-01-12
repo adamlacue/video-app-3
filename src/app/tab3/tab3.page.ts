@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
-  constructor() {}
+  // Define yourButtonClickHandler method
+  forwardButtonClickHandler() {
+    // Your button click logic goes here
+    console.log('Button clicked!');
+  }
+
 
 }
