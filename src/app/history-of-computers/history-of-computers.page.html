@@ -1,11 +1,15 @@
 <ion-header [translucent]="true">
+  <ion-title>
+    History of Computers
+  </ion-title>
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>
-      History of Computers
-    </ion-title>
+    <div id="container">
+      <ion-button (click)="forwardButtonClickHandler()">Next Video</ion-button>
+    </div>
+
   </ion-toolbar>
 </ion-header>
 
@@ -14,11 +18,7 @@
     <ion-toolbar>
       <ion-title size="large">HistoryOfComputers</ion-title>
     </ion-toolbar>
+    
   </ion-header>
+  <img src="assets/history-of-computers.jpg" alt="Example Image">
 </ion-content>
-
-<ion-header>
-  <div id="container">
-    <ion-button (click)="forwardButtonClickHandler()">Next Video</ion-button>
-  </div>
-</ion-header>
